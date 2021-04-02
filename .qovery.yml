@@ -1,0 +1,11 @@
+---
+application:
+  name: "auth0-vue-oidc-client"
+  project: "auth-oidc"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-auth0-vue-oidc-client"
+  routes:
+  - application_name: "auth0-vue-oidc-client"
+    paths:
+    - "/*"
